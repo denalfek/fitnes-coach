@@ -12668,9 +12668,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projects\\fitnesCoach\\fitnesCoach\\fitnesCoach.csproj",
-      "projectName": "fitnesCoach",
-      "projectPath": "C:\\projects\\fitnesCoach\\fitnesCoach\\fitnesCoach.csproj",
+      "projectUniqueName": "C:\\projects\\fitnesCoach\\fitnesCoach\\FitnesCoach.Api.csproj",
+      "projectName": "FitnesCoach.Api",
+      "projectPath": "C:\\projects\\fitnesCoach\\fitnesCoach\\FitnesCoach.Api.csproj",
       "packagesPath": "C:\\Users\\Denis\\.nuget\\packages\\",
       "outputPath": "C:\\projects\\fitnesCoach\\fitnesCoach\\obj\\",
       "projectStyle": "PackageReference",
