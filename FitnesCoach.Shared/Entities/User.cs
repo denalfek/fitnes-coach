@@ -20,6 +20,8 @@ namespace FitnesCoach.Shared.Entities
         
         public int Weight { get; set; } // вес
 
+        public int BMI { get; set; } // ИМТ и кстати, возможно нам не нужно хранить значения роста и веса
+
         public int Squat { get; set; } // приседания
 
         public int PullUps { get; set; } // подтягивания

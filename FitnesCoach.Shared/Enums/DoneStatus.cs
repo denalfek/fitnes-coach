@@ -8,10 +8,10 @@ namespace FitnesCoach.Shared.Enums
     {
         public enum Status : int
         {
-            Done,
-            HalfDone,
-            QuarterDone,
-            Zero
+            Done, // полностью выполнено
+            HalfDone, // половина 
+            QuarterDone, // всего лишь четверть
+            Zero // нихера
         }
 
         public Status status;
