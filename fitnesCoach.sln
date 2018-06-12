@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FitnesCoach.Api", "fitnesCoach\FitnesCoach.Api.csproj", "{A1A54623-93EA-45B3-8177-75E5F8C7AFEB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitnesCoach.Tests", "FitnesCoach.Tests\FitnesCoach.Tests.csproj", "{B1245A3A-B294-4F09-8570-8EA9819E03B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A1A54623-93EA-45B3-8177-75E5F8C7AFEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1A54623-93EA-45B3-8177-75E5F8C7AFEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1A54623-93EA-45B3-8177-75E5F8C7AFEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1245A3A-B294-4F09-8570-8EA9819E03B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1245A3A-B294-4F09-8570-8EA9819E03B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1245A3A-B294-4F09-8570-8EA9819E03B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1245A3A-B294-4F09-8570-8EA9819E03B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
