@@ -4,15 +4,13 @@ using System.Text;
 
 namespace FitnesCoach.Shared.Enums
 {
-    class UserHealth
+    class UserSex
     {
-        enum Health
+        enum Sex
         {
-            Excellent,
-            Good,
-            Midle,
-            Bad,
-            Lost
+            Male,
+            Female,
+            Trans
         }
     }
 }

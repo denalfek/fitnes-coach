@@ -10,12 +10,12 @@ namespace FitnesCoach.Shared.Entities
 
         public int DayNumber { get; set; }
 
-        public string TrainingPlan { get; set; } // как это сделать с json я пока не понял, помню serialized/deserialized
+        public string TrainingPlan { get; set; }
 
-        public int Health { get; set; } // самочувствие
+        public int Health { get; set; }
 
-        public bool Status { get; set; } // выполнено-невыполнено
+        public int Status { get; set; }
 
-        public string ActivityType { get; set; } // вид активности
+        public string ActivityType { get; set; }
     }
 }
