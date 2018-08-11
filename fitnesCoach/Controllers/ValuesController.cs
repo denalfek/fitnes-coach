@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using FitnesCoach.Api.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace fitnesCoach.Controllers
@@ -9,6 +10,19 @@ namespace fitnesCoach.Controllers
     [Route("api/[controller]")]
     public class ValuesController : Controller
     {
+        private IMessageService _service { get; }
+
+        public ValuesController(IMessageService messageService)
+        {
+            _service = messageService;
+        }
+        
+        [HttpGet("Index")]
+        public string Message()
+        {
+            return _service.GetMessage();
+        }
+
         // GET api/values
         [HttpGet]
         public IEnumerable<string> Get()

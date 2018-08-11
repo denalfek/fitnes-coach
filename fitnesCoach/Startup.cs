@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using FitnesCoach.Api;
+using FitnesCoach.Api.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -24,6 +26,7 @@ namespace fitnesCoach
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            services.AddTransient<IMessageService, HelloWorldService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
